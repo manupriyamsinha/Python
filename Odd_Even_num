@@ -1,0 +1,16 @@
+#Check number for odd or even
+n = int(input())
+r = n % 2
+is_even = (r == 0)
+
+if is_even:
+    print("even")
+else:
+    print("Odd")
+
+    
+n = int(input())
+if n % == 0:
+    print("Even")
+else:
+    print("Odd")
