@@ -1,3 +1,4 @@
+#Area of plane covered by recatngle
 x1 = int(input())
 y1 = int(input())
 x2 = int(input())
