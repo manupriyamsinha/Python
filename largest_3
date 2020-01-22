@@ -1,0 +1,10 @@
+#largest of 3 numbers
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a >= b and a >= c:
+    print('a', a)
+elif b >= c and b >= a:
+    print('b', b)
+else : print('c', c)    
