@@ -1,0 +1,11 @@
+n = int(input())
+d = 2 
+#checking for primality
+flag = False
+while d < n:
+    if n % d == 0:
+        flag = True
+    d += 1  
+if flag :
+    print("Not prime")
+else:
