@@ -1,0 +1,9 @@
+#print sum of even numbers till n using while and if loop
+n = int(input())
+count = 2
+sum = 0
+while count <= n:
+    if count % 2 == 0:
+        sum = sum + count
+    count +=1
+print(sum)  
