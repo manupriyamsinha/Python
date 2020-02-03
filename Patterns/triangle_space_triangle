@@ -1,0 +1,36 @@
+n = int(input())
+i = 1
+while i <= n:
+    #first triangle
+    j = 1
+    while j <= i:
+        print(j , end = '')
+        j += 1
+    #spacing between triangle    
+    spaces = 1
+    while spaces <= (2*n) - (2*i): 
+        print(' ' , end = '')
+        spaces += 1
+    #second triangle    
+    k = 1
+    p = i
+    while k <= i:
+        print(p , end ='')
+        k += 1
+        p -= 1
+    print()
+    i += 1
+    
+
+#OUTPUT
+9
+
+1                1
+12              21
+123            321
+1234          4321
+12345        54321
+123456      654321
+1234567    7654321
+12345678  87654321
+123456789987654321
